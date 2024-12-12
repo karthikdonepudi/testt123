@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to karthik Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?famil=Poppin:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="content">
+        <h1>Welcome to <span class="highlight">Abinandh's</span> Resume</h1>
+        <p>Hello! I'm <strong>Abinandh KV</strong>, a passionate coding enthusiast.</p>
+        <p class="quote">"I'm a third-year cse student at GCEM<br> with a foundation in software development, algorithms, and computer systems. I’m passionate about web and mobile app development and proficient in JavaScript, PHP, HTML, CSS, and SQL. <br>I enjoy collaborating on real-time projects, participating in hackathons, and contributing to open source. I'm always eager to learn, grow, and create impactful solutions. Feel free to explore my resume and connect!
+        "</p>
+        <div class="image-container">
+          <img src="avatar-account-icon-default-social-media-profile-photo-vector.jpg" alt="Profile Photo" class="profile-photo">
+        </div>
+        <button class="cta-button" onclick="showMessage()">Explore My Work</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 karthik All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
